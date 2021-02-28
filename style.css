@@ -1,0 +1,38 @@
+.tdf,
+.giro,
+.vuelta {
+  border-radius: 8px;
+  background: #222;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5rem;
+  flex: 1 1 16rem;
+  display: flex;
+  flex-direction: column;
+}
+.tdf {  
+  border: 1px solid #fc3;
+  color: #fc3;
+}
+.giro {
+  border: 1px solid #e8c;
+  color: #e8c; 
+}
+.vuelta {
+  border: 1px solid #cc2626;
+  color: #cc2626;
+}
+.countdown {
+  font-size: 1.44rem;
+  font-weight: bold;
+  margin-top: 0;
+  letter-spacing: 2px;
+}
+.cycling-countdowns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
