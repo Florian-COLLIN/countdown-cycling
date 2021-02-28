@@ -69,3 +69,26 @@ var xVuelta = setInterval(function() {
     document.getElementById("countdown-vuelta").innerHTML = "Started !";
   }
 }, 1000);
+
+// Pairs-Nice Countdown
+var countDownDateVuelta = new Date("March 7, 2021 12:00:00").getTime();
+
+var xVuelta = setInterval(function() {
+
+  var nowVuelta = new Date().getTime();
+
+  var distanceVuelta = countDownDateVuelta - nowVuelta;
+
+  var daysVuelta = Math.floor(distanceVuelta / (1000 * 60 * 60 * 24));
+  var hoursVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsVuelta = Math.floor((distanceVuelta % (1000 * 60)) / 1000);
+
+  document.getElementById("countdown-vuelta").innerHTML = "D-" + daysVuelta + " " + hoursVuelta + ":"
+  + minutesVuelta + ":" + secondsVuelta;
+
+  if (distanceVuelta < 0) {
+    clearInterval(x);
+    document.getElementById("countdown-vuelta").innerHTML = "Started !";
+  }
+}, 1000);
