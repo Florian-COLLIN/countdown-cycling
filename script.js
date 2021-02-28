@@ -70,7 +70,7 @@ var xVuelta = setInterval(function() {
   }
 }, 1000);
 
-// Pairs-Nice Countdown
+// Paris-Nice Countdown
 var countDownDateParisNice = new Date("March 7, 2021 12:00:00").getTime();
 
 var xParisNice = setInterval(function() {
@@ -90,5 +90,28 @@ var xParisNice = setInterval(function() {
   if (distanceParisNice < 0) {
     clearInterval(x);
     document.getElementById("countdown-paris-nice").innerHTML = "Started !";
+  }
+}, 1000);
+
+// Tour-des-Alpes Countdown
+var countDownDateAlpes = new Date("April 19, 2021 11:15:00").getTime();
+
+var xAlpes = setInterval(function() {
+
+  var nowAlpes = new Date().getTime();
+
+  var distanceAlpes = countDownDateAlpes - nowAlpes;
+
+  var daysAlpes = Math.floor(distanceAlpes / (1000 * 60 * 60 * 24));
+  var hoursAlpes = Math.floor((distanceAlpes % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesAlpes = Math.floor((distanceAlpes % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsAlpes = Math.floor((distanceAlpes % (1000 * 60)) / 1000);
+
+  document.getElementById("countdown-alpes").innerHTML = "D-" + daysAlpes + " " + hoursAlpes + ":"
+  + minutesAlpes + ":" + secondsAlpes;
+
+  if (distanceAlpes < 0) {
+    clearInterval(x);
+    document.getElementById("countdown-alpes").innerHTML = "Started !";
   }
 }, 1000);
