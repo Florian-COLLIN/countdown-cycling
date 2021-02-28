@@ -71,24 +71,24 @@ var xVuelta = setInterval(function() {
 }, 1000);
 
 // Pairs-Nice Countdown
-var countDownDateVuelta = new Date("March 7, 2021 12:00:00").getTime();
+var countDownDateParisNice = new Date("March 7, 2021 12:00:00").getTime();
 
-var xVuelta = setInterval(function() {
+var xParisNice = setInterval(function() {
 
-  var nowVuelta = new Date().getTime();
+  var nowParisNice = new Date().getTime();
 
-  var distanceVuelta = countDownDateVuelta - nowVuelta;
+  var distanceParisNice = countDownDateParisNice - nowParisNice;
 
-  var daysVuelta = Math.floor(distanceVuelta / (1000 * 60 * 60 * 24));
-  var hoursVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutesVuelta = Math.floor((distanceVuelta % (1000 * 60 * 60)) / (1000 * 60));
-  var secondsVuelta = Math.floor((distanceVuelta % (1000 * 60)) / 1000);
+  var daysParisNice = Math.floor(distanceParisNice / (1000 * 60 * 60 * 24));
+  var hoursParisNice = Math.floor((distanceParisNice % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutesParisNice = Math.floor((distanceParisNice % (1000 * 60 * 60)) / (1000 * 60));
+  var secondsParisNice = Math.floor((distanceParisNice % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown-vuelta").innerHTML = "D-" + daysVuelta + " " + hoursVuelta + ":"
-  + minutesVuelta + ":" + secondsVuelta;
+  document.getElementById("countdown-paris-nice").innerHTML = "D-" + daysParisNice + " " + hoursParisNice + ":"
+  + minutesParisNice + ":" + secondsParisNice;
 
-  if (distanceVuelta < 0) {
+  if (distanceParisNice < 0) {
     clearInterval(x);
-    document.getElementById("countdown-vuelta").innerHTML = "Started !";
+    document.getElementById("countdown-paris-nice").innerHTML = "Started !";
   }
 }, 1000);
