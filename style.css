@@ -1,3 +1,16 @@
+@charset "UTF-8"
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100%;
+  background: #222;
+  color: #fff;
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 300;
+}
 .tdf,
 .giro,
 .vuelta,
