@@ -18,7 +18,7 @@ var xTDF = setInterval(function() {
 
   if (distanceTDF < 0) {
     clearInterval(x);
-    document.getElementById("countdown-tdf").innerHTML = "Started !";
+    document.getElementById("countdown-tdf").innerHTML = "Parties !";
   }
 }, 1000);
 
@@ -42,7 +42,7 @@ var xGiro = setInterval(function() {
 
   if (distanceGiro < 0) {
     clearInterval(x);
-    document.getElementById("countdown-giro").innerHTML = "Started !";
+    document.getElementById("countdown-giro").innerHTML = "Parties !";
   }
 }, 1000);
 
@@ -66,7 +66,7 @@ var xVuelta = setInterval(function() {
 
   if (distanceVuelta < 0) {
     clearInterval(x);
-    document.getElementById("countdown-vuelta").innerHTML = "Started !";
+    document.getElementById("countdown-vuelta").innerHTML = "Parties !";
   }
 }, 1000);
 
@@ -89,7 +89,7 @@ var xParisNice = setInterval(function() {
 
   if (distanceParisNice < 0) {
     clearInterval(x);
-    document.getElementById("countdown-paris-nice").innerHTML = "Started !";
+    document.getElementById("countdown-paris-nice").innerHTML = "Parties !";
   }
 }, 1000);
 
@@ -112,6 +112,6 @@ var xAlpes = setInterval(function() {
 
   if (distanceAlpes < 0) {
     clearInterval(x);
-    document.getElementById("countdown-alpes").innerHTML = "Started !";
+    document.getElementById("countdown-alpes").innerHTML = "Parties !";
   }
 }, 1000);
