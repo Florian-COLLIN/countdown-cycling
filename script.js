@@ -47,7 +47,7 @@ var xGiro = setInterval(function() {
 
 //Vuelta Countdown
 
-var countDownDateVuelta = new Date("Aug 19, 2021 13:10:00").getTime();
+var countDownDateVuelta = new Date("Aug 19, 2022 13:10:00").getTime();
 
 var xVuelta = setInterval(function() {
 
@@ -70,7 +70,7 @@ var xVuelta = setInterval(function() {
 }, 1000);
 
 // Paris-Nice Countdown
-var countDownDateParisNice = new Date("March 6, 2021 12:00:00").getTime();
+var countDownDateParisNice = new Date("March 6, 2022 12:00:00").getTime();
 
 var xParisNice = setInterval(function() {
 
