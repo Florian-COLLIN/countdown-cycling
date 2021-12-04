@@ -1,6 +1,6 @@
 //TDF Countdown
 
-var countDownDateTDF = new Date("Jun 26, 2021 12:15:00").getTime();
+var countDownDateTDF = new Date("Jul 01, 2022 12:15:00").getTime();
 
 var xTDF = setInterval(function() {
 	var nowTDF = new Date().getTime();
@@ -23,7 +23,7 @@ var xTDF = setInterval(function() {
 
 //Giro Countdown
 
-var countDownDateGiro = new Date("May 8, 2021 12:00:00").getTime();
+var countDownDateGiro = new Date("May 6, 2022 12:00:00").getTime();
 
 var xGiro = setInterval(function() {
 
@@ -47,7 +47,7 @@ var xGiro = setInterval(function() {
 
 //Vuelta Countdown
 
-var countDownDateVuelta = new Date("Aug 14, 2021 13:10:00").getTime();
+var countDownDateVuelta = new Date("Aug 19, 2021 13:10:00").getTime();
 
 var xVuelta = setInterval(function() {
 
@@ -70,7 +70,7 @@ var xVuelta = setInterval(function() {
 }, 1000);
 
 // Paris-Nice Countdown
-var countDownDateParisNice = new Date("March 7, 2021 12:00:00").getTime();
+var countDownDateParisNice = new Date("March 6, 2021 12:00:00").getTime();
 
 var xParisNice = setInterval(function() {
 
